@@ -13,9 +13,9 @@ namespace Supermarket.API.Services
         {
             this._categoryRepository = categoryRepository;
         }
-        public async Task<IEnumerable<Category>> ListAsync()
+        public async Task<IEnumerable<Category>> ListAsyncmuhannad()
         {
-              return await _categoryRepository.ListAsync();
+              return await _categoryRepository.ListAsyncahmad();
         }
     }
 } 

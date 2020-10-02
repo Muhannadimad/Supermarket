@@ -14,7 +14,7 @@ namespace Supermarket.API.Persistence.Repositories
         {
         }
 
-        public async Task<IEnumerable<Category>> ListAsync()
+        public async Task<IEnumerable<Category>> ListAsyncahmad()
         {
             return await _context.Categories.ToListAsync();
         }
