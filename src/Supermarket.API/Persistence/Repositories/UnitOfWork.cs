@@ -14,7 +14,7 @@ namespace Supermarket.API.Persistence.Repositories
         }
 
         public async Task CompleteAsync()
-        {
+        { 
             await _context.SaveChangesAsync();
         }
     }
